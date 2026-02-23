@@ -45,7 +45,7 @@
   <div class="hero-content">
     <div class="hero-tag">Degree Visualization of Linux ASR</div>
     <h1>Map. <em>Exploit.</em><br>Eliminate.</h1>
-    <p class="hero-sub">Graph-driven privilege escalation modeling for modern Linux environments. Visualize every path to root before your adversary does.</p>
+    <p class="hero-sub">Graph based privilege escalation modeling for modern Linux environments. Visualize attack-paths to root before your adversary.</p>
     <div class="hero-actions">
       <a href="https://github.com/pengu-apm/BloodPengu" target="_blank" class="btn-red">BloodPengu</a>
       <a href="https://github.com/pengu-apm/PyPengu" target="_blank" class="btn-ghost">PyPengu</a>
@@ -106,8 +106,8 @@
     <div class="overview-left reveal-left">
       <div class="section-tag">What is BloodPengu</div>
       <h2>Attack path management<br>for Linux infrastructure</h2>
-      <p>Identify Hundreds, even Thousands of Attack-paths. BloodPengu brings graph-based attack surface reconnaissance to Linux and Unix environments.</p>
-      <p>PyPengu runs on target, enumerating privilege vectors, mapping group relationships, and surfacing escalation paths. BloodPengu ingests the JSON and renders it as an interactive attack graph.</p>
+      <p>Identify Hundreds, even Thousands of Attack-paths. BloodPengu brings graph-based ASR to Linux/Unix environments.</p>
+      <p>Collects Data with PyPengu on target, enumerating privilege vectors, mapping group relationships, and surfacing escalation paths. BloodPengu ingests JSON's data and renders it as an interactive attack graph.</p>
       <p>Security can identify the shortest path to root in seconds. Defenders can map and close attack paths before they are exploited.</p>
     </div>
     <div class="overview-right reveal-right">
@@ -164,7 +164,7 @@
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
       </div>
       <h3>Sudo Escalation Graph</h3>
-      <p>Parses sudo -l output and NOPASSWD rules. Maps direct and indirect escalation paths through sudoers misconfigurations and dangerous binary configurations.</p>
+      <p>Parses sudo/root access output and NOPASSWD rules. Maps direct and indirect escalation paths through sudoers misconfigurations and dangerous binary configurations.</p>
       <div class="feat-badge">Sudo</div>
     </div>
     <div class="feat-card reveal-up" data-delay="160">
@@ -246,7 +246,7 @@
       </div>
       <div class="shot-info">
         <div class="shot-title">Dense Attack Surface</div>
-        <div class="shot-desc">287 nodes, 211 edges, 183 critical paths rendered in one graph. SUID binaries fanning out from a single user, each one a direct path to root privilege.</div>
+        <div class="shot-desc">Hundreds nodes, hundreds edges, hundreds of critical paths rendered in one graph. SUID binaries fanning out from a single user, each one a direct path to root privilege.</div>
       </div>
     </div>
     <div class="shot-card scroll-card" data-dir="right">
@@ -258,7 +258,7 @@
       </div>
       <div class="shot-info">
         <div class="shot-title">SudoNoPasswd Path</div>
-        <div class="shot-desc">Shortest path query result: Vuln-User to root via SudoNoPasswd. The curved edge shows a single-step escalation requiring no password. Remediation is immediate.</div>
+        <div class="shot-desc">Shortest path query result from Vuln-User to root via SudoNoPasswd. The curved edge shows a single-step escalation requiring no password. Remediation is immediate.</div>
       </div>
     </div>
     <div class="shot-card scroll-card" data-dir="left">
@@ -326,7 +326,7 @@
       </div>
     </div>
     <div class="arch-right reveal-right">
-      <div class="section-tag">PyPengu Collectors</div>
+      <div class="section-tag">PyPengu Collectors Examples</div>
       <div class="collectors-grid">
         <div class="collector reveal-up" data-delay="0">
           <div class="col-name">Sudo</div>
@@ -384,7 +384,7 @@
 <section class="cta-section">
   <div class="cta-inner reveal-up">
     <h2>Stop being the last<br><span>to know.</span></h2>
-    <p>Run PyPengu. Import the JSON. See every path to root before your adversary does.</p>
+    <p>Run PyPengu. Import the Digested Data. See every path to root before your adversary does.</p>
     <div class="cta-btns">
       <a href="https://github.com/pengu-apm/BloodPengu" target="_blank" class="btn-red">Get BloodPengu</a>
       <a href="https://github.com/pengu-apm/PyPengu" target="_blank" class="btn-ghost">Get PyPengu</a>
